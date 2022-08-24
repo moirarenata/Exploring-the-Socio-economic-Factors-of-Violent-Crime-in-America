@@ -21,8 +21,9 @@ We have tried multiple ways to fit our data in order to achieve the bestperformi
 The best model we found to predict violent crime rates within a community is
 
 
-log(Violent Crimes per Population) = 14.28480 − 0.75325log(Median Family Income) −1.10032log(Percentage of Bachelors or More) + 0.28061log(Percentage Unemployed)
-+ 0.12190log(Lemas Total Requests) − 0.71819log(Police Cars) + 0.28061log(Percentage of Bachelors or More) * log(Police Cars)
+log(Violent Crimes per Population) = 
+
+14.28480 − 0.75325log(Median Family Income) −1.10032log(Percentage of Bachelors or More) + 0.28061log(Percentage Unemployed) + 0.12190log(Lemas Total Requests) − 0.71819log(Police Cars) + 0.28061log(Percentage of Bachelors or More) x log(Police Cars)
 
 This model shows that a variety of socio-economic factors including income, education,
 employment, and other factors like the number of police cars in a community, the number of
